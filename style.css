@@ -1,0 +1,89 @@
+@font-face {
+    font-family: centuryGothic;
+    src: url(centurygothic.ttf);
+  }
+
+html{
+    background-image: linear-gradient(90deg,gold 5%,white 5% 95%);
+    background-size: 4rem 4rem ; 
+}
+
+body {
+    margin-top:000px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    min-height: 100vh;
+    border: 1px solid white;
+    width: 99%;
+    margin-left: 0px;
+    background-image: linear-gradient(90deg,white ,transparent ,white );
+
+    z-index: -1;
+    font-family:centuryGothic ;
+}
+
+#loginContainer{
+
+    width: 40%;
+    height: 20rem;
+    background-color: white;
+    border: solid 1px gold;
+    border-radius: 5px;
+    margin: 250px auto auto;
+    box-shadow: 0 0 35px white;
+}
+
+#loginContainer:hover{
+    transition: 0.1s;
+    width: 40%;
+    height: 20rem;
+    background-color: white;
+    border: solid 5px gold;
+    border-radius: 5px;
+    margin: 250px auto auto;
+
+}
+
+
+
+
+#loginRegisterSelector{
+
+    width: 100%;
+    height: 25%;
+    display: flex;
+    
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+
+.lrButton{
+    font-family:centuryGothic;
+    font-size: 4vh;
+    color: gold;
+    background-color: white;
+    width:  50%;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.lrButton:hover{
+    
+    border-bottom:solid 1px gold;
+}
+
+#lButton:hover{
+
+    border-radius:0px;
+    border-right: solid 1px gold;
+    border-bottom-right-radius: 3px;
+}
+
+#rButton:hover{
+
+    border-radius:0px;
+    border-left: solid 1px gold;
+    border-bottom-left-radius: 3px;
+}
