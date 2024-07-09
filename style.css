@@ -16,3 +16,85 @@ body {
     
 }
 
+#loginContainer{
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  color: #D3D3D3;
+  padding: 50px;
+  background-color: #1E1E1E;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #e68269;
+}
+
+#loginTitle{
+  font-weight: bolder;
+}
+
+.loginForm{
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+input{
+  transition:0.2s;
+  border-radius: 5px;
+  background-color: #505050;
+  outline: none;
+  font-family: centuryGothic;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+}
+
+input:focus{
+  transition: 0.2s;
+  background-color: #e68269;
+}
+
+input:active{
+  background-color: #ECCEAE;
+}
+
+.straightLine{
+  margin-top: 20px;
+  width: 100%;
+  height: 1px;
+  background-image: linear-gradient(90deg,#1E1E1E,#e6826985,#1E1E1E);
+}
+
+#passwordLabel{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+#password{
+  grid-column: 2;
+  grid-row-start: 2;
+}
+
+button{
+  font-family: centuryGothic;
+  transition: 0.2s;
+  font-size: 30px;
+  padding: 10px 10px 10px;
+  width: 70%;
+  align-self: center;
+  border-radius: 5px;
+  border: none;
+  background-color: #505050;
+}
+
+button:hover{
+  transition: 0.2s;
+  background-color: #e68269;
+}
+
+button:active{
+  background-color: #ECCEAE;
+}
