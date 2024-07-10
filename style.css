@@ -13,6 +13,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(135deg,hsl(12, 71%, 90%) 10%,transparent 10% 40%,#e68269 40% 50%,transparent 50% 90%,white 90% 100%);
+
     
 }
 
@@ -24,7 +26,7 @@ body {
   padding: 50px;
   background-color: #1E1E1E;
   border-radius: 10px;
-  box-shadow: 0 0 10px #e68269;
+  box-shadow: 0 0 10px black;
 }
 
 #loginTitle{
@@ -92,9 +94,25 @@ button{
 
 button:hover{
   transition: 0.2s;
-  background-color: #e68269;
+  background-image: linear-gradient(135deg,#e68269 15%, hsl(12, 71%, 90%) 15% 25%, #e68269 20%);
+  animation: gradientShine 1s ease-in-out ;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
+
 
 button:active{
   background-color: #ECCEAE;
+}
+
+@keyframes gradientShine{
+
+    from{
+      background-position-x: -10px;
+    }
+
+    to{
+      background-position-x: 500px;
+    }
+
 }
