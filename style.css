@@ -19,10 +19,17 @@ body {
     
 }
 
+#backgroundText{
+  font-size: 50vh;
+  position: absolute;
+  z-index: -1;
+  color: #D3D3D3;
+}
+
 #loginContainer{
   display: flex;
   flex-direction: column;
-  font-size: 3.5vh;
+  font-size: clamp(50px,7vh,1000px);
   color: #D3D3D3;
   padding: 50px;
   background-color: #1E1E1E;
