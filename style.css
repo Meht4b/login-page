@@ -81,6 +81,7 @@ input:focus{
 }
 
 input:active{
+  transform: scale(105%);
   background-color: #ECCEAE;
 }
 
@@ -88,7 +89,7 @@ input:active{
   margin-top: 1vh;
   width: 100%;
   height: 1px;
-  background-image: linear-gradient(90deg,#1E1E1E,#e6826985,#1E1E1E);
+  background-image: linear-gradient(90deg,#1E1E1E,#e6826985 5% 95%,#1E1E1E);
 }
 
 #passwordLabel{
