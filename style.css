@@ -17,7 +17,7 @@ body {
     
 }
 
-#container{
+#loginContainer{
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -37,7 +37,8 @@ body {
   }
 }
 
-#loginContainer{
+#loginContainerInner{
+  transition: 0.2s;
   display: flex;
   flex-direction: column;
   font-size: clamp(50px,7vh,1000px);
